@@ -1,0 +1,65 @@
+$ git config --global user.name "Mukarrom1"
+$ git config --global user.email "mukarrom21@yahoo.com"
+
+$ git status
+$ git add -a						file bring in a stage.
+$ git add --a						all file bring in a stage.
+$ git commit -m "any massage"
+$ git log						to know All commits that you did.
+
+$ rm -fr .git						delet .git (delete all stages)
+
+$ git clone
+
+$ pwd							present working directory
+$ ls							list content
+$ cd (file name/folder name with "/")			change directory
+
+$ touch	(file name)					create file
+$ touch .gitignore					.gitignore file will create.
+
+$ git diff						Compare in working earia with stage earia.
+$ git diff --staged					Compare in before commit with present stage.
+$ git commit -a -m ""					skip 2nd edid and commit 1st adited.(it can commit tracked files, not untracked files)
+
+$ git rm (file name)					delete file
+$ git mv (file name) (new name)				rename file.
+
+$ git rm --cached (file name)				untrack file.
+$ git log -p						to see all diff(all changes)
+$ git log -p -2 or -3...				how many commit you want to see...
+$ git log --stat					short summury about chnged...
+$ git log --pretty=oneline				one comment in one line 
+$ git log --pretty=short				author will show
+$ git log --pretty=full					author, commit and messages will show
+$ git log --since=2.days				2 din ager commit dekhabe.
+$ git log --since=2.weeks				2 saptah ager commit dekhabe.
+$ git log --since=2.months				2 mas ager commit dekhabe.
+$ git log --since=2.years				2 bochor ager commit dekhabe.
+$ git log --pretty=forma:"%h --%an"			format akare dekhabe
+
+$ git commit --amend					change git commit
+	after run this comand new window will opan and press "i" button for write anything. after writting press "Esc" button then ":" button than "qw". the window will exit and you will return git bash window.
+
+$ git restore --staged (file name)			unstage
+$ git checkout -- (file name)				undo changed this file
+$ git checkout -f					undo all file changes.
+
+$ git remote
+$ git remote add origin https://github.com/mukarrom1/Git-Practice-2.git
+$ git remote
+$ git remote -v
+
+Alias==================================================Alias
+modify code with shorhand
+$ git config --global alias.st status			"git status" shorthand is "git st"
+
+$ git checkout -b (any name)				create and checkout new branch.
+$ git branch --merged					merged branch will show
+$ git branch --no-merged				non merged branch will show
+
+$ git branch -d (branch name)				delete merged branch 
+$ git branch -D (branch name)				delete unmerged branch
+
+$ git push origin (branch name):(new name)		remote e notun branch toiri hobe..
+$ git push -d origin (branc name)			delete branch from remote.

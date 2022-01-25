@@ -1,0 +1,188 @@
+/*       default layaout          */
+@media only screen and (min-width:960px) {
+    .main_wrap{}
+    .wrap{}
+    .selectnav{
+        display: none;
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:959px) {
+    .main_wrap{
+
+    }
+    .wrap{
+        width: 100%;
+    }
+    .selectnav{
+        display: none;
+    }
+}
+
+@media only screen and (min-width:100px) and (max-width:767px) {
+    .main_wrap{
+
+    }
+    .wrap{
+        width: 100%;
+    }
+    #header_nav{
+        display: none;
+    }
+    .selectnav{
+        display: block;
+        width: 100%;
+        height: 37px;
+    }
+    
+    /**************Social Share*******************/
+    .social_share{
+        width: 20px;
+        height: 20px;
+        position: fixed;
+        top: 25%;
+        left: 0;
+        z-index: 950;
+      }
+      .social_share ul{
+        list-style: none;
+      }
+      .social_share img{
+        width: 100%;
+        height: 100%;
+        background: rgb(252, 248, 248);
+        border-radius: 25px;
+      }
+      /***********    Header   ************/
+      .header h2,p{
+          text-align: center;
+      }
+      /****************** articles css ****************/
+    .article_bg{
+        background: #fff;
+    }
+    .article_bg .wrap{
+        border-right: #6b710e 1px solid;
+        border-left: #6b710e 1px solid;
+    }
+    .content_wrapper{
+        background-color: #fff;
+        padding: 10px;
+        overflow: hidden;
+    }
+    .articles{
+        width: 100%;
+        margin-right: 20px;
+        float: left;
+        text-align: justify;
+    }
+    /* Home page css Article*/
+    .single_artcl{
+        border-bottom: 1px solid #6b710e;
+        margin-bottom: 15px;
+    }
+    #artcl_img_wrap{
+        margin: 20px 0;
+        overflow: hidden;
+    }
+    #artcl_img_wrap img{
+        width: 95%;
+        height: 100%;
+        border: 2px solid #6b710e;
+        margin-right: 20px;
+        float: left;
+    }
+    #artcl_img_wrap p{
+        width: 100%;
+        float: left;
+        text-align: justify;
+    }
+    /* end the css of home page article css */
+    .articles h3{
+        color: #6b710e;
+        margin: 5px 0;
+        text-align: center;
+    }
+    /* This is inside page article css */
+    #artcl_all p{
+        text-align: justify;
+    }
+    figure img{
+        width: 100%;
+    }
+    figure{
+        width: 95%;
+        padding: 10px;
+        background-color: #ddd;
+        margin: 0 auto;
+        display: block;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    figcaption{
+        text-align: center;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-weight: bolder;
+        color: #6b710e;
+    }
+    blockquote{
+        background-color: #ddd;
+        margin-left: 20px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding: 10px 10px;
+        padding-left: 20px;
+        border-left: 12px solid #0cd11c;
+        font-size: small;
+    }
+    /* end the css of inside page article */
+    #articles p{
+        margin: 15px 0;
+        font-size: 15px;
+    }
+    #articles h3{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 23px;
+    }
+    .aside{
+        margin-top: 10px;
+        width: 300px;
+        float: left;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    #main_sidebar{
+        border-bottom: 1px solid #6b710e;
+        margin-bottom: 15px;
+        margin-left: 10px;
+    }
+    .aside h3{
+        color: #6b710e;
+        margin-left: ;
+        margin-bottom: 10px;
+    }
+    .aside ul{
+        list-style: none;
+    }
+    
+    #main_sidebar ul li{
+        border-bottom: 1px solid #fab72a;
+        margin-left: 10px;
+    }
+    #main_sidebar ul li:last-child{
+        border-bottom: none;
+    }
+    .aside ul li a{
+        display: block;
+        padding: 3px;
+        color: #313516;
+        padding: 6px;
+    }
+    .aside ul li a:hover{
+        color: #fd7f17;
+    }
+
+
+    }
+
+
+    

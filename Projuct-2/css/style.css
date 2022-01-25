@@ -1,0 +1,271 @@
+*{margin: 0;padding: 0;}
+body{
+    font-family: Sans-Serif,Arial!important; transition:;-webkit-transition:;
+}
+body, html{
+    height: 100%;
+}
+img{
+    max-width: 100%;
+}
+a{
+    text-decoration: none;
+}
+h1, h2, h3, h4, h5, h6{
+    font-weight: normal;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+p{
+    line-height: 150%;margin-bottom: 2em;
+    text-align: justify;
+}
+.container_full{
+    width: 100%;
+    height: auto;
+}
+.container{
+    width: 960px;
+    margin: 0 auto;
+}
+.fix{
+    overflow: hidden;
+}
+.align_center{
+    display: block;margin: 0 auto;
+}
+.float_left{
+    float: left;
+}
+.float_right{
+    float: right;
+}
+ul{list-style: none;}
+/*----------------------------------------- */
+/* header menu */
+.nav {
+    background: black;
+    height: 38px;
+    border-bottom: 5px solid yellow;
+}
+.menu ul{}
+.menu ul li{
+    float: left;
+    position: relative;
+    z-index: 5;
+}
+.menu ul li a{
+    padding: 10px 20px;
+    display: block;
+    color: white;
+}
+.menu ul li a:hover{
+    border-left: 1px solid yellow;
+    border-right: 1px solid yellow;
+}
+/* Submenu 1*/
+.menu ul li ul{
+    position: absolute;
+    left: -99999px;
+    top: 39px;
+    background: black;
+    width: 130px;
+}
+.menu ul li:hover ul{
+    left: 0;
+}
+.menu ul li ul li{
+    float: none;
+    position: relative;
+}
+.submenu1 li a{
+    border: none;
+}.menu ul li ul li a:hover{
+    border-left: none;
+    border-right: none;
+    border-top: 1px solid yellow;
+    border-bottom: 1px solid yellow;
+}
+/* Submenu 2 */
+.menu ul li ul li ul{
+    position: absolute;
+    top: -9999px;
+}
+.menu ul li ul li:hover ul{
+    top: 0;
+    left: 119px;
+}
+/* Image */
+.image{
+    position: relative;
+}
+.image img{
+    height: 300px;
+    vertical-align: middle;
+}
+
+/* Menu 2 */
+.menu2{
+    position: absolute;
+    top: 262px;
+    background: url(../img/menu_bg.png);
+    width: 960px;
+    height: 38px;
+}
+.menu2 ul{
+    float: left;
+    background: none;
+}
+/* Search Box */
+.serch_box{
+    float: right;
+    margin-top: 1px;
+}
+.serch_box input{
+    padding: 8px;
+    width: 300px;
+    border-radius: 8px;
+    box-sizing: border-box;
+    position: relative;
+}
+.serch_box img{
+    width: 20px;
+    height: 20px;
+    margin: 7px 3px 0 0;
+    position: absolute;
+    right: 0;
+}
+/* main content */
+.main_content{
+    border-top: 5px solid yellow;
+}
+aside div{
+    background: rgb(228, 210, 108);
+}
+aside h2{
+    background:green;
+    text-align: center;
+    padding: 5px ;
+    color: #fff;
+}
+aside ul li a{
+    padding: 5px 10px;
+    display: block;
+}
+aside ul li a:hover{
+    border: 1px solid tomato;
+    background: rgb(158, 3, 3);
+    color: white;
+}
+/* left aside */
+.left_aside{
+    width: 210px;
+    float: left;
+    padding-right: 10px;
+    height: 960px;
+}
+/* right aside */
+.right_aside{
+    width: 210px;
+    height: 960px;
+    float: right;
+    padding-left: 10px;
+}
+/* Contact Name, Email */
+input{
+    margin-bottom: 6px;
+}
+#input{
+    width: 180px;
+    padding: 3px;
+    border-radius: 5px;
+}
+.submit{
+    padding: 8px 15px;
+    background: green;
+    color: white;
+    font-weight: bold;
+    border-radius: 7px;
+    border: rgb(209, 208, 208) 2px solid;
+    margin: ;
+}
+/* articl */
+.article{
+    width: 500px;
+    margin: 0px auto;
+    padding: 10px;
+}
+
+.qoute{
+    width: 450px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    border-left: 8px solid green;
+    background: #ddd;
+}
+.qoute img{
+    width: 30px;
+    margin: 5px;
+    float: left;
+}
+.qoute p{
+    margin: 0;
+    padding: 10px 5px 10px 40px;
+}
+/* footer */
+.footer{
+    background: rgb(36, 31, 44);
+    display: block;
+    width: 960px;
+    height: 200px;
+}
+.col{
+    float: left;
+    color:#fff;
+    margin: 10px;
+}
+.col h2{
+    border-bottom: 2px solid;
+    text-align: center;
+}
+.col ul li{
+    padding: 5px;
+    text-align: center;
+}
+.col ul li a{color: #fff;}
+.col ul li:hover{
+    border: 1px solid yellow;
+}
+/* collumn 1 */
+.col1{
+    width: 150px;
+}
+/* collumn 2 */
+.col2 {
+    width: 277px;
+}
+/* collumn 3 */
+.col_img{
+    width: 185px;
+}
+.col img{
+    width: 35px;
+    padding: 3px;
+}
+.col img:hover{
+    width: 40px;
+}
+/* collumn 4 */
+.col4 {
+    width: 265px;
+}
+#cntr{text-align: center; display: block;}
+
+/* Copyright */
+.copy{
+    background: orange;
+    text-align: center;
+    padding: 10px;
+    color: rgb(44, 0, 238);
+    font-weight: bolder;
+}
